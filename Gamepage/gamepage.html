@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <link rel="stylesheet" href="gamepage.css">
+</head>
+<body>
+    <!-- Background animation -->
+    <div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+     </div>
+
+     <!-- Full Page Mode -->
+     <div class="logo-holder">
+        <p class="logo">
+            <span>C</span>
+            <span>o</span>
+            <span>l</span>
+            <span>o</span>
+            <span>r</span>
+            <span>B</span>
+            <span>l</span>
+            <span>a</span>
+            <span>s</span>
+            <span>t</span>
+        </p>
+        <a id="play_btn" class="play-button" href="#">Play</a>
+        <h4 class="hint">hint: <span>red</span> color always comes first</h4>
+    </div>
+
+    <!-- How To Play -->
+    <div class="how-to-play">
+        <div class="section section-1">
+            <h4>Bouncing ball<br>changes color</h4>
+            <div class="content">
+                <div class="shadow"></div>
+                <div class="ball-demo" id="ball-demo"></div>
+            </div>
+        </div>
+        <div class="section section-2">
+            <h4>Tap on the bar to switch the colors<br>(Red, Yellow, Purple)</h4>
+            <div class="content">
+                <div class="bar bar-1" data-index="0"></div>
+                <div class="bar bar-2"></div>
+                <div class="bar bar-3"></div>
+            </div>
+        </div>
+        <div class="section section-3">
+            <h4>Always match the<br>ball and bar colors</h4>
+            <div class="content">
+                <div class="ball-demo" id="ball-demo"></div>
+                <div class="bar bar-1"></div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script src="gamepage.js"></script>
+</body>
+</html>
